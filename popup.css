@@ -1,0 +1,17 @@
+:root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; width: 320px; background: #0b1020; color: #f8fafc; }
+main { padding: 20px; }
+.brand { color: #8b5cf6; font-size: 11px; font-weight: 800; letter-spacing: 2px; }
+h1 { margin: 8px 0 14px; font-size: 54px; line-height: 1; }
+h1 small { color: #8b5cf6; font-size: 25px; }
+input[type="range"] { width: 100%; accent-color: #8b5cf6; }
+.presets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 18px 0; }
+button { border: 1px solid #293249; border-radius: 9px; padding: 9px; background: #161d30; color: #f8fafc; cursor: pointer; font-weight: 700; }
+button:hover, button.active { border-color: #8b5cf6; background: #6d28d9; }
+label { display: block; margin-bottom: 6px; color: #aab4ca; font-size: 12px; }
+.custom-row { display: flex; gap: 8px; }
+input[type="number"] { min-width: 0; flex: 1; border: 1px solid #293249; border-radius: 9px; padding: 9px; background: #11182a; color: white; }
+#applyButton { background: #7c3aed; border-color: #8b5cf6; }
+#status { margin: 15px 0 0; color: #a7f3d0; font-size: 12px; }
+.hint { margin: 8px 0 0; color: #718096; font-size: 11px; }

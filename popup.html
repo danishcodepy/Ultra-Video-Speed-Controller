@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ultra Video Speed</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <div class="brand">ULTRA SPEED</div>
+      <h1><span id="speedValue">1</span><small>x</small></h1>
+      <input id="speedSlider" type="range" min="0.25" max="32" step="0.25" value="1" aria-label="Video speed" />
+      <div class="presets" id="presets">
+        <button data-speed="1">1x</button>
+        <button data-speed="2">2x</button>
+        <button data-speed="4">4x</button>
+        <button data-speed="8">8x</button>
+        <button data-speed="16">16x</button>
+        <button data-speed="32">32x</button>
+      </div>
+      <label for="customSpeed">Custom speed</label>
+      <div class="custom-row">
+        <input id="customSpeed" type="number" min="0.25" max="32" step="0.25" value="1" />
+        <button id="applyButton">Apply</button>
+      </div>
+      <p id="status">Looking for video…</p>
+      <p class="hint">Shortcuts: Alt + Shift + ↑ / ↓</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

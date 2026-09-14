@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Ultra Video Speed 32x",
+  "description": "Control HTML5 video playback speed from 0.25x to 32x.",
+  "version": "1.1.0",
+  "permissions": ["storage", "tabs", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Ultra Video Speed 32x",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "speed-up": {
+      "suggested_key": { "default": "Alt+Shift+Up" },
+      "description": "Increase video speed"
+    },
+    "speed-down": {
+      "suggested_key": { "default": "Alt+Shift+Down" },
+      "description": "Decrease video speed"
+    },
+    "speed-reset": {
+      "suggested_key": { "default": "Alt+Shift+R" },
+      "description": "Reset video speed to 1x"
+    }
+  }
+}
