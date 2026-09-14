@@ -32,3 +32,21 @@ Danish SpeedX helps users speed through videos on YouTube, online courses, tutor
 <p align="center">
 <img src="screenshots/popup.png" width="400">
 </p>
+
+---
+
+## 🛠 Tech Stack
+
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Chrome Extensions API
+- Manifest V3
+
+## 📦 Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/danishcodepy/Ultra-Video-Speed-Controller.git
+
