@@ -24,3 +24,11 @@ Danish SpeedX helps users speed through videos on YouTube, online courses, tutor
 1. Extract the `danish-speedx.zip` folder.
 
 2. Open Chrome and go to:
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+<img src="screenshots/popup.png" width="400">
+</p>
