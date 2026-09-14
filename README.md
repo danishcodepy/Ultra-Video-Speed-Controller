@@ -32,6 +32,7 @@ Danish SpeedX helps users speed through videos on YouTube, online courses, tutor
 <p align="center">
 <img src="screenshots/popup.png" width="400">
 </p>
+<img width="472" height="743" alt="image" src="https://github.com/user-attachments/assets/47c3a401-0a62-401a-9297-711ef3bae87d" />
 
 ---
 
